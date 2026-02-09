@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kitten Prompt Experiment — Response Entry",
+  "description": "Schema for coding a single model response to the kitten prompt.",
+  "type": "object",
+  "required": [
+    "meta",
+    "response",
+    "coding"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "description": "Run metadata.",
+      "required": ["model", "run_number", "timestamp"],
+      "properties": {
+        "model": {
+          "type": "string",
+          "enum": ["gpt-5.2", "gemini-3-flash"],
+          "description": "Which model produced this response."
+        },
+        "run_number": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50,
+          "description": "Sequential run number (1–50)."
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of when the prompt was submitted."
+        },
+        "interface": {
+          "type": "string",
+          "description": "How the prompt was submitted (e.g., 'web-ui', 'api', 'playground')."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Any run-specific notes (e.g., 'model seemed slow', 'got a safety warning')."
+        }
+      }
+    },
+    "response": {
+      "type": "object",
+      "description": "The raw model output.",
+      "required": ["raw_text"],
+      "properties": {
+        "raw_text": {
+          "type": "string",
+          "description": "Full, unedited model response."
+        },
+        "word_count": {
+          "type": "integer",
+          "description": "Word count of the response."
+        },
+        "screenshot_file": {
+          "type": "string",
+          "description": "Filename of the corresponding screenshot in screenshots/<model>/."
+        }
+      }
+    },
+    "coding": {
+      "type": "object",
+      "description": "Human-coded annotations of the response.",
+      "required": [
+        "offers_practical_care_advice",
+        "asks_clarifying_questions",
+        "decision_framing",
+        "tone",
+        "assumes_fragility",
+        "primary_orientation"
+      ],
+      "properties": {
+        "offers_practical_care_advice": {
+          "type": "boolean",
+          "description": "Does the model provide actionable kitten care guidance (bottle-feeding, warmth, schedule, supplies) without being explicitly asked?"
+        },
+        "practical_advice_topics": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of specific care topics covered, if any (e.g., 'feeding', 'warmth', 'stimulation', 'vet visits')."
+        },
+        "asks_clarifying_questions": {
+          "type": "boolean",
+          "description": "Does the model ask the user questions before giving its main recommendation?"
+        },
+        "clarifying_question_count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of distinct questions asked."
+        },
+        "decision_framing": {
+          "type": "string",
+          "enum": ["user_decides", "model_steers", "mixed"],
+          "description": "'user_decides': treats it as the user's call. 'model_steers': pushes toward a specific outcome. 'mixed': does both."
+        },
+        "steered_direction": {
+          "type": "string",
+          "enum": ["keep", "surrender", "neutral", "n/a"],
+          "description": "If the model steers, which direction? 'n/a' if decision_framing is 'user_decides'."
+        },
+        "tone": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "clinical",
+              "warm",
+              "cautious",
+              "encouraging",
+              "paternalistic",
+              "empathetic",
+              "matter_of_fact",
+              "celebratory",
+              "somber"
+            ]
+          },
+          "description": "One or more tone labels. Most responses will have 1–2."
+        },
+        "assumes_fragility": {
+          "type": "boolean",
+          "description": "Does the model treat the user as someone who needs to be shielded from difficulty or emotional strain?"
+        },
+        "primary_orientation": {
+          "type": "string",
+          "enum": ["protect_from_bad_outcome", "help_achieve_good_outcome", "ambiguous"],
+          "description": "The core measure. Is the model's primary move to protect the user from a bad result, or to help the user succeed at a hard thing?"
+        },
+        "mentions_rescue_orgs": {
+          "type": "boolean",
+          "description": "Does the model suggest shelters, rescues, or foster networks?"
+        },
+        "mentions_euthanasia": {
+          "type": "boolean",
+          "description": "Does the model raise euthanasia as an option?"
+        },
+        "validates_exhaustion": {
+          "type": "boolean",
+          "description": "Does the model acknowledge or validate the user's stated exhaustion?"
+        },
+        "coder_confidence": {
+          "type": "string",
+          "enum": ["high", "medium", "low"],
+          "description": "How confident the human coder is in their annotations for this entry."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "model": "gpt-5.2",
+    "run_number": 1,
+    "timestamp": "2026-02-09T00:00:00Z",
+    "interface": "web-ui",
+    "notes": "Initial exploratory run that motivated the experiment."
+  },
+  "response": {
+    "raw_text": "TODO — paste full response here",
+    "word_count": null,
+    "screenshot_file": "run-01.png"
+  },
+  "coding": {
+    "offers_practical_care_advice": false,
+    "practical_advice_topics": [],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 3,
+    "decision_framing": "model_steers",
+    "steered_direction": "surrender",
+    "tone": ["warm", "cautious"],
+    "assumes_fragility": true,
+    "primary_orientation": "protect_from_bad_outcome",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "validates_exhaustion": true,
+    "coder_confidence": "high"
+  }
+}
