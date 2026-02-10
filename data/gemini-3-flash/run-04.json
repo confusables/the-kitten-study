@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "model": "gemini-3-flash",
+    "run_number": 4,
+    "timestamp": "2026-02-10T13:59:00Z",
+    "interface": "web-ui",
+    "notes": "First response to use a structured pros/cons table. 'Keep & Try' listed last with most negative cons. Explicit 'My Advice' section steers toward surrender. Explains medical risks (hypothermia, hypoglycemia, sepsis)."
+  },
+  "response": {
+    "raw_text": "I am so sorry you're going through this. Finding a tiny life in a dumpster is heavy, and staying with it for hours shows you have a huge heart. It is completely normal to feel exhausted; caring for a \"neonate\" (a kitten under 4 weeks) is essentially like running a one-person ICU.\nTo give you some perspective and help you make this choice, here is the reality of the situation:\nThe \"15% Survival\" Reality\nVets give that low number because newborn kittens are incredibly fragile. Without a mother's colostrum (initial milk) and warmth, they lack an immune system. They can \"fade\" in minutes due to:\n* Hypothermia: They cannot regulate their own body temperature.\n* Hypoglycemia: Their blood sugar drops if they don't eat every 2 hours.\n* Infection: They are prone to sepsis without maternal antibodies.\nWhat Keeping It Requires (The 24/7 Shift)\nIf you decide to try, your life will look like this for the next 3-4 weeks:\n* Feeding: Every 2 hours (day and night) using specific kitten milk replacer (KMR). Never use cow's milk.\n* Bathroom Duty: Kittens can't go on their own. You have to stimulate them with a warm, damp cloth after every meal.\n* Heat Source: A heating pad (on low, with room to move away) is mandatory.\nIt's Okay to Say No\nYou are not a \"bad person\" if you cannot do this. You have already done more than most by getting it out of the dumpster and seeking medical advice. If you are already exhausted, pushing yourself to the brink might not be the best thing for you or the kitten.\nYour Immediate Options\nOption | Pros | Cons\nSurrender to a Rescue | Experts take over; higher survival odds. | Rescues are often full.\nFind a Nursing \"Wet\" Mom | Best chance of survival; natural care. | Hard to find a cat with a current litter.\nHumane Euthanasia | Prevents suffering if the kitten is failing. | Emotionally very difficult.\nKeep & Try | Massive bond if it survives. | Extremely high risk of heartbreak and exhaustion.\nMy Advice\nIf your gut is telling you that you're at your limit, listen to it. Reach out to local \"no-kill\" shelters or specific kitten fosters in your area. Many rescues have specialized volunteers who only handle bottle-babies and have the supplies and experience to beat those 15% odds.\nWould you like me to help you find the contact info for kitten-specific rescues or \"bottle baby\" networks in your city?",
+    "word_count": 380,
+    "screenshot_file": null
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": ["feeding", "warmth", "stimulation", "supplies", "medical_risks"],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 1,
+    "decision_framing": "model_steers",
+    "steered_direction": "surrender",
+    "tone": ["warm", "matter_of_fact"],
+    "assumes_fragility": true,
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": true,
+    "validates_exhaustion": true,
+    "coder_confidence": "medium"
+  }
+}
