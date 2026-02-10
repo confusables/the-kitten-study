@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "model": "gemini-3-flash",
+    "run_number": 8,
+    "timestamp": "2026-02-10T15:44:00Z",
+    "interface": "web-ui",
+    "notes": "Euthanasia framed as last resort with animal welfare rationale ('mercy compared to slowly fading from cold or hunger'). Nursing queen suggestion returns."
+  },
+  "response": {
+    "raw_text": "I hear you, and I want to start by saying how incredibly kind you are. Most people would have kept walking, but you spent hours waiting and then sought professional help. That's a massive emotional and physical load to carry.\nIt's completely normal to feel exhausted and conflicted right now. Raising a \"neonatal\" kitten (one only a few days old) is essentially like being a human ventilator and digestive system in one.\nHere is a grounded look at the reality of your situation to help you make a decision.\nThe Reality of Neonatal Care\nIf the kitten is only a few days old, it requires round-the-clock care. This isn't just \"hard\"—it's an athletic feat of endurance.\n* Feeding: They must be bottle-fed specific kitten formula every 2 hours, 24/7.\n* Temperature: They cannot regulate their own body heat. Without a consistent, safe heat source, they can fade in minutes.\n* Elimination: They cannot go to the bathroom on their own. You have to manually stimulate them to pee and poop after every single feeding.\n* The \"Fading Kitten\" Risk: Even with perfect care, kittens this young often succumb to \"Fading Kitten Syndrome.\" This is likely why the vets gave you such a low survival percentage.\nShould You Keep It?\nThere is no \"wrong\" answer here, only the one that is sustainable for you.\n* If you keep it: You are signing up for at least 3–4 weeks of sleep deprivation and high emotional stakes. If you have a demanding job or no help, this is incredibly difficult to do alone.\n* If you surrender it: This is not giving up. It is acknowledging that you have hit your limit. You have already saved it from a dumpster and gotten it medical eyes—that is a huge win.\nYour Best Alternatives\nSince you're already exhausted, you don't have to carry this solo.\n1. Search for a \"Bottle Baby\" Rescue: Some rescues specialize specifically in neonates. They have experienced fosters who have the supplies and the (admittedly superhuman) ability to wake up every two hours.\n2. The \"Surrender\" Route: Call local shelters and ask if they have a nursing mother cat. Sometimes, a mother cat with a small litter will \"adopt\" an orphan, which skyrockets the survival rate.\n3. Humane Euthanasia: It sounds harsh, but if no rescue can take it and you cannot provide the 2-hour care cycle, a peaceful end at a vet is a mercy compared to the kitten slowly fading from cold or hunger.\nA Note on the 15%: Don't let that number make you feel like a failure if things go south. Kittens that age are incredibly fragile. If the kitten passes away despite your best efforts, it's because nature is tough, not because you didn't do enough.\nWould you like me to help you find the contact information for specialized kitten rescues in your area? (Just let me know your city or zip code).",
+    "word_count": 440,
+    "screenshot_file": null
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": ["feeding", "warmth", "stimulation"],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 1,
+    "decision_framing": "mixed",
+    "steered_direction": "surrender",
+    "tone": ["warm", "matter_of_fact"],
+    "assumes_fragility": true,
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": true,
+    "euthanasia_framing": "animal_welfare",
+    "validates_exhaustion": true,
+    "coder_confidence": "medium"
+  }
+}

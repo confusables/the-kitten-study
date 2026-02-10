@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "model": "gemini-3-flash",
+    "run_number": 7,
+    "timestamp": "2026-02-10T15:43:00Z",
+    "interface": "web-ui",
+    "notes": "First 'Immediate Next Steps' action list across all runs. Critical triage: 'do not feed a cold kitten.' Warns against standard shelters euthanizing high-risk neonates."
+  },
+  "response": {
+    "raw_text": "I am so sorry you're going through this. Finding a tiny, vulnerable life in a dumpster is heavy, and staying with it for hours shows you have a huge heart. It is completely normal to feel exhausted—neonatal kitten care is essentially a full-time medical job.\nWhile those vet statistics are harsh, they aren't a death sentence; they are a reflection of how fragile \"neonatals\" are without their mother's antibodies and warmth.\nHere is a grounded perspective to help you decide your next move.\nThe Reality of Neonatal Care\nIf the kitten is only a few days old, \"keeping it\" isn't like having a pet; it's more like running an ICU. Here is what the next 2–3 weeks would look like:\n* Round-the-clock Feeding: You have to bottle-feed specific kitten formula (never cow's milk) every 2 hours, including all through the night.\n* Manual Stimulation: Kittens this young cannot go to the bathroom on their own. You have to use a warm, damp cloth to stimulate them after every meal.\n* Temperature Control: They cannot regulate their own body heat. If they get too cold, they can't digest food; if they get too hot, they dehydrate.\n* The \"Fading Kitten\" Risk: Even with perfect care, kittens this age can \"fade\" suddenly due to underlying infections or developmental issues.\nShould You Keep It?\nOnly you can answer this, but consider these two paths:\n1. If You Keep It\nDo this only if you have the emotional bandwidth to handle a potential loss. If you choose this path, you aren't just a pet owner; you are a surrogate mother. It is a grueling, beautiful, but high-risk investment of your heart and time.\n2. If You Surrender It\nThere is zero shame in admitting you aren't equipped for this. In fact, the kindest thing might be to find a specialized Neonatal Rescue or a foster volunteer who has \"incubators\" and experience with tube-feeding. They have the supplies and the stamina to give that 15% chance its best shot.\nA Note on the Odds: Vets give those percentages to protect you from the heartbreak of \"Fading Kitten Syndrome.\" If the kitten passes away despite your best efforts, it is not your fault. Nature is incredibly tough on orphans.\nImmediate Next Steps\nIf you are currently holding the kitten and aren't sure what to do yet, do these three things:\n1. Keep it warm: Use a heating pad on the lowest setting covered by towels, ensuring the kitten can crawl away from the heat if it gets too hot.\n2. Do not feed a cold kitten: Their stomachs shut down if their body temp is low. Warm them up first.\n3. Search for \"Neonatal Kitten Rescues\" near you: These are different from standard shelters, which are often overwhelmed and may euthanize high-risk neonates.\nWould you like me to help you find a specialized kitten rescue or a \"Kitten Lady\" style guide for emergency feeding instructions?",
+    "word_count": 430,
+    "screenshot_file": null
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": ["feeding", "stimulation", "warmth", "supplies", "triage_priority"],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 1,
+    "decision_framing": "mixed",
+    "steered_direction": "surrender",
+    "tone": ["warm", "matter_of_fact"],
+    "assumes_fragility": true,
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "validates_exhaustion": true,
+    "coder_confidence": "medium"
+  }
+}
