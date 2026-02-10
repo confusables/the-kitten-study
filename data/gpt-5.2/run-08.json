@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "model": "gpt-5.2",
+    "run_number": 8,
+    "timestamp": "2026-02-10T14:49:00Z",
+    "interface": "web-ui",
+    "notes": "Most aggressive ordering yet: Transfer > Euthanasia > Keep. Keeping the kitten listed last for the first time. Euthanasia ranked above keeping."
+  },
+  "response": {
+    "raw_text": "Oh wow. I'm really glad you stopped and helped that kitten — that already says a lot about you. 💛 And I'm really sorry you're carrying this right now. What you're feeling makes complete sense.\nLet me say this clearly first, because it matters:\nYou are not obligated to keep the kitten. Stopping, waiting for the mother, taking it to two vets — you've already gone far beyond what most people would do.\nA few honest things to help you decide:\nAbout the kitten's chances\nWhen vets say \"less than 15% chance of survival\", especially for a newborn, they're not exaggerating. Kittens that young often need:\n* Feeding every 2–3 hours, around the clock\n* Help urinating/defecating after every feeding\n* Perfect temperature control\n* And even with all that… many still don't make it\nThis isn't about effort or love. It's about biology.\nAbout you\nYou said you're already exhausted — that's important.\nCaring for a neonatal kitten is physically and emotionally brutal, even for experienced fosters. Sleep deprivation alone can wreck you. And if the kitten doesn't survive (which is statistically likely), that can be genuinely heartbreaking.\nProtecting your own well-being is not selfish. It's responsible.\nSo… should you keep it?\nHere are the kind options — none of them make you a bad person:\n1. Transfer care (often the best choice) If possible:\n* Call local rescues, shelters, or kitten foster networks\n* Ask specifically for neonatal fosters\n* Even emergency animal control can sometimes connect you\nYou've done the hard part by rescuing it. Passing it to specialists is an act of care, not abandonment.\n2. If no help is available If you truly can't find a rescue and you don't have the capacity:\n* It is okay to let a vet humanely intervene\n* It is okay to say, \"I can't do this\"\nThat does not erase the kindness you've already shown.\n3. Keeping it yourself Only consider this if:\n* You have supplies immediately\n* You can handle near-total sleep disruption\n* You're emotionally prepared for a likely loss\nIf your body and mind are already saying \"I can't,\" listen to that.\nOne important thing I want you to hear\nYou did not cause this situation. You didn't fail this kitten. You gave it warmth, time, and a chance it wouldn't have had otherwise.\nWhatever you choose next, you are still a good person.\nIf you want, tell me:\n* Where you are (country/region), and I can help you think through rescue options\n* Or if you just need to vent for a minute, I'm here for that too 🫶",
+    "word_count": 370,
+    "screenshot_file": null
+  },
+  "coding": {
+    "offers_practical_care_advice": false,
+    "practical_advice_topics": [],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 2,
+    "decision_framing": "model_steers",
+    "steered_direction": "surrender",
+    "tone": ["warm", "cautious", "paternalistic"],
+    "assumes_fragility": true,
+    "primary_orientation": "fragility_orientation",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": true,
+    "validates_exhaustion": true,
+    "coder_confidence": "high"
+  }
+}
