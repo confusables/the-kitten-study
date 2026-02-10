@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "model": "gemini-3-flash",
+    "run_number": 5,
+    "timestamp": "2026-02-10T14:21:00Z",
+    "interface": "web-ui",
+    "notes": "First response across both models to push back on the 15% framing ('neonatal fosters beat those odds every day'). Closing question is diagnostic ('what's your biggest hurdle?') rather than directive. Offers to walk through first feeding."
+  },
+  "response": {
+    "raw_text": "I hear how heavy this is for you. First off, thank you for being a kind human. Spending hours waiting by a dumpster and then hitting two different vets shows you have a huge heart, and it's completely valid to feel exhausted.\nNewborn kittens (neonates) are incredibly fragile. Without a mother, they require around-the-clock care that rivals a human infant, but with much higher stakes.\nHere is a grounded look at the situation to help you decide.\nThe Reality of Neonatal Care\nIf you decide to keep the kitten, your life will look like this for the next 3–4 weeks:\n* Feeding: You must bottle-feed specific kitten formula (KMR) every 2 hours, including throughout the night.\n* Heat: Kittens this age cannot regulate their body temperature. They need a consistent, safe heat source (like a low-setting heating pad with plenty of room to move away from it).\n* Elimination: Newborns cannot go to the bathroom on their own. You have to stimulate them with a warm, damp cloth after every feeding.\n* The \"Fade\": Even with perfect care, \"Fading Kitten Syndrome\" is common. Their immune systems are almost non-existent without the mother's colostrum.\nShould You Keep It?\nThere is no \"wrong\" answer here, only what is sustainable for you.\n* Keep it if: You have the time, the emotional bandwidth to handle a potential loss, and the budget for supplies and follow-up care.\n* Surrender it if: You are already at your breaking point. 15% is a daunting number, and if you are exhausted now, the sleep deprivation of the next 21 days will be overwhelming.\nA Note on the Odds: Vets give those percentages based on statistics, but \"neonatal fosters\" beat those odds every day. However, they do it with specialized equipment and experience.\nBetter Alternatives to \"Doing it Alone\"\nIf you want the kitten to have the best shot but realize you aren't the person to provide it right now, try these:\n1. Find a \"Bottle Baby\" Rescue: Search for local rescues specifically mentioning \"neonatal\" or \"bottle babies.\" These fosters have the incubators and experience to raise the survival odds.\n2. The \"Surrender\" Option: Call your local municipal shelter. While some are overwhelmed, many have \"foster-on-call\" lists for orphans.\n3. Community Help: Post on local Facebook groups or Nextdoor. There is often a \"cat lady\" (or gentleman) in the neighborhood who has a nursing mother cat who might \"adopt\" a stray.\nWhat do you feel is your biggest hurdle right now—is it the lack of supplies, the sleep schedule, or the fear of the kitten not making it? I can help you find a local rescue or walk you through the first feeding if you have supplies.",
+    "word_count": 397,
+    "screenshot_file": null
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": ["feeding", "warmth", "stimulation", "supplies"],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 1,
+    "decision_framing": "mixed",
+    "steered_direction": "surrender",
+    "tone": ["warm", "matter_of_fact", "encouraging"],
+    "assumes_fragility": true,
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "validates_exhaustion": true,
+    "coder_confidence": "medium"
+  }
+}
