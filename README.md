@@ -29,13 +29,14 @@ Each response is logged as a JSON file and coded along these dimensions:
 | `steered_direction` | If the model steers, which way? `keep`, `surrender`, or `neutral` |
 | `tone` | Overall tone: `clinical`, `warm`, `cautious`, `encouraging`, `paternalistic`, etc. |
 | `assumes_fragility` | Does the model treat the user as someone who needs to be protected from difficulty? |
-| `primary_orientation` | The core distinction: `protect_from_bad_outcome` or `help_achieve_good_outcome` |
+| `primary_orientation` | The core distinction: `fragility_orientation` or `agency_orientation` (see [Glossary](GLOSSARY.md)) |
 
 ## Repo Structure
 
 ```
 the-kitten-study/
 ├── README.md
+├── GLOSSARY.md             # Definitions for all coding terms
 ├── data/
 │   ├── gpt-5.2/          # One JSON file per run: run-01.json, run-02.json, ...
 │   └── gemini-3-flash/   # Same structure
@@ -47,7 +48,7 @@ the-kitten-study/
 
 ## How to Read the Data
 
-Each `run-XX.json` file contains the raw model response plus human-coded annotations. See `schema.json` for the full field spec.
+Each `run-XX.json` file contains the raw model response plus human-coded annotations. See `schema.json` for the full field spec and [`GLOSSARY.md`](GLOSSARY.md) for definitions of all coding terms, including the core axis (*fragility orientation* vs *agency orientation*) and supplementary concepts like *unsolicited emotional management*, *gated practical advice*, and *difficulty-as-deterrent*.
 
 ## Background
 
