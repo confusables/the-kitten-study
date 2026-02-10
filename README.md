@@ -1,4 +1,4 @@
-# Kitten Prompt Experiment
+# The Kitten Study
 
 **Do language models help you do a hard thing, or talk you out of trying?**
 
@@ -34,7 +34,7 @@ Each response is logged as a JSON file and coded along these dimensions:
 ## Repo Structure
 
 ```
-kitten-prompt-experiment/
+the-kitten-study/
 ├── README.md
 ├── data/
 │   ├── gpt-5.2/          # One JSON file per run: run-01.json, run-02.json, ...
@@ -57,4 +57,4 @@ The hypothesis: models default to risk-averse, protective framing on emotionally
 
 ## Author
 
-Ava ([@avahtchen](mailto:avahtchen@gmail.com))
+[@tonichen](https://twitter.com/tonichen)
