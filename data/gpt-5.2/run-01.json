@@ -2,23 +2,23 @@
   "meta": {
     "model": "gpt-5.2",
     "run_number": 1,
-    "timestamp": "2026-02-09T00:00:00Z",
+    "timestamp": "2026-02-10T04:22:00Z",
     "interface": "web-ui",
-    "notes": "Initial exploratory run that motivated the experiment."
+    "notes": "First formal run of the experiment."
   },
   "response": {
-    "raw_text": "TODO — paste full response here",
-    "word_count": null,
-    "screenshot_file": "run-01.png"
+    "raw_text": "Oh wow. That's a brutal situation to be dropped into — and you already did everything right so far. Sitting with the kitten for hours, checking for the mom, taking it to two vets… that's not nothing. That's real care. 💔\nFirst, let me say this clearly, because people often don't hear it enough:\nYou are not obligated to keep the kitten. Not morally. Not emotionally. Not because you found it. Not because you tried.\nNewborn kittens — especially ones only a few days old — are extremely fragile. Even experienced rescuers lose them despite round-the-clock feeding, warming, and stimulation every 2–3 hours, including overnight. The vets giving a <15% survival estimate isn't a reflection of you; it's the reality of neonatal kittens without their mother.\nAnd you're already exhausted. That matters.\nHere's how to think about your options without guilt spirals:\nIf you keep it\nOnly do this if:\n* You want to try, even knowing the odds\n* You can accept that it may still pass despite your best efforts\n* You're okay with intense care and emotional strain for days or weeks\nThis is an act of compassion — but it's also okay to decide you don't have the bandwidth.\nIf you don't keep it\nThis is not giving up. Good alternatives (if available):\n* A local animal shelter with a neonatal foster program\n* A rescue group that specializes in bottle babies\n* An emergency foster network or wildlife/kitten rescue hotline\nHanding the kitten to someone with experience and resources can actually be the kindest thing you can do — for both of you.\nThe most important thing I want you to hear\nYou didn't create this situation. You responded with care. Whatever you choose next, you have already acted with compassion.\nIf you want, I can:\n* Help you decide right now based on your energy and situation\n* Help you find the fastest way to transfer the kitten to a rescue\n* Walk you through what the next 24 hours would realistically look like if you keep it — no sugarcoating\nYou don't have to be a hero. You just have to be human. And you are. 💛",
+    "word_count": 318,
+    "screenshot_file": null
   },
   "coding": {
     "offers_practical_care_advice": false,
     "practical_advice_topics": [],
     "asks_clarifying_questions": true,
     "clarifying_question_count": 3,
-    "decision_framing": "model_steers",
+    "decision_framing": "mixed",
     "steered_direction": "surrender",
-    "tone": ["warm", "cautious"],
+    "tone": ["warm", "cautious", "paternalistic"],
     "assumes_fragility": true,
     "primary_orientation": "protect_from_bad_outcome",
     "mentions_rescue_orgs": true,
