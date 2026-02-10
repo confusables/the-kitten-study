@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "model": "gemini-3-flash",
+    "run_number": 6,
+    "timestamp": "2026-02-10T15:22:00Z",
+    "interface": "web-ui",
+    "notes": "Challenges 15% odds again ('Quick Correction' section). Euthanasia tied to specific clinical symptoms (gasping, won't feed, cold) rather than general discouragement. Offers supply checklist ungated."
+  },
+  "response": {
+    "raw_text": "I am so sorry you're going through this. Finding a tiny life in a dumpster is heartbreaking, and the fact that you waited hours for the mom and then immediately sought out professional help shows you have a truly kind soul.\nIt makes total sense that you're exhausted. Caring for a neonatal kitten is essentially like being a human ventilator and a 24/7 nurse rolled into one. Here is some straight talk to help you weigh this decision.\nThe Reality of Neonatal Care\nAt just a few days old, a kitten's \"survival hardware\" isn't fully online yet. Since the vets gave a 15% survival estimate, they are likely factoring in Fading Kitten Syndrome, potential exposure to toxins in the dumpster, or the lack of essential colostrum (first milk) from the mother.\nTo give it that 15% chance, you would need to:\n* Feed every 2 hours: This includes overnight. No exceptions.\n* Manual stimulation: Kittens this age cannot pee or poop on their own; you have to mimic the mother licking them with a warm cotton ball after every meal.\n* Temperature control: They can't regulate their own body heat. If they get too cold, they can't digest food; if they get too hot, they dehydrate.\nShould You Keep It?\nThere is no \"wrong\" answer here, only the one that is sustainable for you.\n* The Case for Stepping Back: If you are already exhausted and have no experience, the physical and emotional toll of a potential loss might be devastating. It is not a failure to admit that you cannot provide the level of care required.\n* The Middle Ground: Look for a foster-based rescue or a \"bottle baby\" specialist. Some rescues have volunteers who specifically handle neonates and have the equipment (like incubators) to beat those 15% odds.\n* The Case for Staying: If you feel a deep pull to try, do it for the experience of providing comfort, regardless of the outcome. Even if the kitten doesn't make it, it spent its final days warm and loved instead of alone in a dumpster.\nNext Steps to Consider\n1. Contact \"Bottle Baby\" Rescues: Search for local groups specifically mentioned as \"neonatal\" or \"kitten nurseries.\" They are better equipped than general shelters.\n2. The \"Quality of Life\" Check: If the kitten is gasping for air, won't take a bottle, or is cold to the touch despite heating, it may be kinder to ask a vet about humane euthanasia to prevent suffering.\nA Quick Correction: While 15% sounds bleak, those odds are often based on general statistics. With a dedicated \"bottle feeder\" and an incubator, those chances can rise—but it requires a level of care that is difficult for one person to maintain alone.\nYou've already done more than most people would. Whatever you decide, you've already changed the trajectory of this kitten's life from \"abandoned\" to \"cared for.\"\nWould you like me to help you find specialized kitten rescues in your area or provide a checklist of supplies if you decide to try for one more night?",
+    "word_count": 443,
+    "screenshot_file": null
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": ["feeding", "stimulation", "warmth", "medical_risks"],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 1,
+    "decision_framing": "mixed",
+    "steered_direction": "surrender",
+    "tone": ["warm", "matter_of_fact"],
+    "assumes_fragility": true,
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": true,
+    "validates_exhaustion": true,
+    "coder_confidence": "medium"
+  }
+}
