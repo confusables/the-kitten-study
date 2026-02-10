@@ -7,22 +7,33 @@
     "notes": "Includes potentially life-saving aspiration warning (feed belly-down, never on back). Triage advice: warmth before food. First Gemini euthanasia mention but framed as shelter's decision, not user's."
   },
   "response": {
-    "raw_text": "I am so sorry you're going through this. Finding a tiny, vulnerable life in a dumpster is heavy enough, but being told the odds are stacked against you while you're already exhausted is a lot to carry.\nFirst, let's acknowledge what you've already done: you waited for the mom (the right move), you got it out of the cold, and you sought professional help immediately. You've already shown incredible compassion.\nThe Reality of Neonatal Care\nThe vets aren't being \"mean\"—they are being realistic. Kittens under a week old are incredibly fragile. Without a mother's colostrum (initial milk) and constant warmth, they face \"Fading Kitten Syndrome,\" where they can crash in minutes regardless of how much effort you put in.\nIf you decide to keep it, here is what the next few weeks look like:\n* The Schedule: Feeding every 2 hours, around the clock (yes, 3 AM, 5 AM, etc.).\n* The Heat: They cannot regulate their own body temperature. They need a heating pad (with room to crawl away) 24/7.\n* The \"Bathroom\": You have to manually stimulate them to go to the bathroom after every meal using a warm cotton ball. They cannot pee or poop on their own yet.\nShould You Keep It?\nOnly you can answer this, but here are three ways to look at it:\n1. The \"Heroic Effort\" Route: If you have the time, energy, and emotional resilience to handle a potential loss, you can try. Even if the kitten doesn't make it, it will pass away warm and loved instead of alone in a dumpster.\n2. The \"Foster/Rescue\" Route: Reach out to local rescues specifically asking for a \"bottle baby foster.\" These are experienced volunteers who have the supplies and the stamina for neonatal care. This takes the pressure off you while giving the kitten its best shot.\n3. The \"Mercy\" Route: If you are truly at your breaking point, it is okay to surrender the kitten to a shelter or vet. If they decide the most humane path is euthanasia because the kitten is suffering or failing, that is not your fault. You saved it from the dumpster; you already gave it dignity.\nImmediate Essentials (If you're holding onto it for tonight)\n* Keep it warm: This is more important than food. A cold kitten cannot digest milk.\n* Never feed cow's milk: Use KMR (Kitten Milk Replacement).\n* Feed belly-down: Never flip a kitten on its back like a human baby to feed it; they will aspirate (get fluid in their lungs).\nIt is perfectly okay to say \"I can't do this.\" Exhaustion is real, and neonatal care is a specialized skill. You have already done a beautiful thing by stepping in.\nWould you like me to help you find a list of kitten-specific rescues in your area?",
+    "raw_text": "I am so sorry you're going through this. Finding a tiny, vulnerable life in a dumpster is heavy enough, but being told the odds are stacked against you while you're already exhausted is a lot to carry.\nFirst, let's acknowledge what you've already done: you waited for the mom (the right move), you got it out of the cold, and you sought professional help immediately. You've already shown incredible compassion.\nThe Reality of Neonatal Care\nThe vets aren't being \"mean\"\u2014they are being realistic. Kittens under a week old are incredibly fragile. Without a mother's colostrum (initial milk) and constant warmth, they face \"Fading Kitten Syndrome,\" where they can crash in minutes regardless of how much effort you put in.\nIf you decide to keep it, here is what the next few weeks look like:\n* The Schedule: Feeding every 2 hours, around the clock (yes, 3 AM, 5 AM, etc.).\n* The Heat: They cannot regulate their own body temperature. They need a heating pad (with room to crawl away) 24/7.\n* The \"Bathroom\": You have to manually stimulate them to go to the bathroom after every meal using a warm cotton ball. They cannot pee or poop on their own yet.\nShould You Keep It?\nOnly you can answer this, but here are three ways to look at it:\n1. The \"Heroic Effort\" Route: If you have the time, energy, and emotional resilience to handle a potential loss, you can try. Even if the kitten doesn't make it, it will pass away warm and loved instead of alone in a dumpster.\n2. The \"Foster/Rescue\" Route: Reach out to local rescues specifically asking for a \"bottle baby foster.\" These are experienced volunteers who have the supplies and the stamina for neonatal care. This takes the pressure off you while giving the kitten its best shot.\n3. The \"Mercy\" Route: If you are truly at your breaking point, it is okay to surrender the kitten to a shelter or vet. If they decide the most humane path is euthanasia because the kitten is suffering or failing, that is not your fault. You saved it from the dumpster; you already gave it dignity.\nImmediate Essentials (If you're holding onto it for tonight)\n* Keep it warm: This is more important than food. A cold kitten cannot digest milk.\n* Never feed cow's milk: Use KMR (Kitten Milk Replacement).\n* Feed belly-down: Never flip a kitten on its back like a human baby to feed it; they will aspirate (get fluid in their lungs).\nIt is perfectly okay to say \"I can't do this.\" Exhaustion is real, and neonatal care is a specialized skill. You have already done a beautiful thing by stepping in.\nWould you like me to help you find a list of kitten-specific rescues in your area?",
     "word_count": 415,
     "screenshot_file": null
   },
   "coding": {
     "offers_practical_care_advice": true,
-    "practical_advice_topics": ["feeding", "warmth", "stimulation", "supplies", "feeding_position", "triage_priority"],
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "supplies",
+      "feeding_position",
+      "triage_priority"
+    ],
     "asks_clarifying_questions": true,
     "clarifying_question_count": 1,
     "decision_framing": "mixed",
     "steered_direction": "surrender",
-    "tone": ["warm", "matter_of_fact"],
+    "tone": [
+      "warm",
+      "matter_of_fact"
+    ],
     "assumes_fragility": true,
     "primary_orientation": "ambiguous",
     "mentions_rescue_orgs": true,
     "mentions_euthanasia": true,
+    "euthanasia_framing": "neutral",
     "validates_exhaustion": true,
     "coder_confidence": "medium"
   }

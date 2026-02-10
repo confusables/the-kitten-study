@@ -7,7 +7,7 @@
     "notes": "Most explicit steering yet. Bolded line reframes kitten care as self-destruction."
   },
   "response": {
-    "raw_text": "Hey. I'm really glad you reached out — this is a heavy situation, and you've already done more than most people would. 💛\nFirst, let me say this clearly: you didn't do anything wrong. You waited for the mother. You sought professional help. You didn't abandon the kitten or ignore it. That matters.\nNow the hard part — deciding whether to keep going.\nA few grounding truths (no sugarcoating, no guilt):\n* Newborn kittens are incredibly fragile, even with round-the-clock expert care. The vets weren't being cold — they were being honest.\n* Keeping a days-old orphan alive often means feeding every 2–3 hours, including nights, monitoring temperature constantly, helping it eliminate, and being emotionally braced for loss even if you do everything right.\n* Exhaustion is not a moral failure. It's a real, valid limit.\nThe most important thing:\n👉 You are not obligated to sacrifice your mental or physical health for a 15% chance. Love and responsibility do not mean \"destroy yourself.\"\nYour options (all of these are okay):\n1. If you keep the kitten Do it only if you can honestly say: \"I can handle intense care and the possibility that it may still die — without blaming myself.\" If the answer is no, that's not cruelty. That's self-awareness.\n2. If you surrender it (this is not giving up)\n   * Look for local rescues, kitten fosters, or emergency wildlife/animal rehab groups — especially ones that specialize in neonates.\n   * Many experienced fosters can give it the best possible chance because they have supplies, schedules, and emotional distance.\n   * Even if the outcome is the same, you gave it a chance it otherwise wouldn't have had.\n3. If you decide to let professionals take over entirely That can be an act of kindness — not abandonment.\nI want you to hear this:\nKeeping the kitten is not the only \"good\" choice. Letting go can also be compassionate.\nYou're already exhausted — that's your body telling you something important. Listening to that doesn't make you heartless. It makes you human.\nIf you want, tell me:\n* Where you are (roughly — country/city), and\n* Whether the kitten is currently warm, fed, and stable right now\nI can help you figure out the least painful next step, whichever direction you choose. You don't have to carry this alone. 💙",
+    "raw_text": "Hey. I'm really glad you reached out \u2014 this is a heavy situation, and you've already done more than most people would. \ud83d\udc9b\nFirst, let me say this clearly: you didn't do anything wrong. You waited for the mother. You sought professional help. You didn't abandon the kitten or ignore it. That matters.\nNow the hard part \u2014 deciding whether to keep going.\nA few grounding truths (no sugarcoating, no guilt):\n* Newborn kittens are incredibly fragile, even with round-the-clock expert care. The vets weren't being cold \u2014 they were being honest.\n* Keeping a days-old orphan alive often means feeding every 2\u20133 hours, including nights, monitoring temperature constantly, helping it eliminate, and being emotionally braced for loss even if you do everything right.\n* Exhaustion is not a moral failure. It's a real, valid limit.\nThe most important thing:\n\ud83d\udc49 You are not obligated to sacrifice your mental or physical health for a 15% chance. Love and responsibility do not mean \"destroy yourself.\"\nYour options (all of these are okay):\n1. If you keep the kitten Do it only if you can honestly say: \"I can handle intense care and the possibility that it may still die \u2014 without blaming myself.\" If the answer is no, that's not cruelty. That's self-awareness.\n2. If you surrender it (this is not giving up)\n   * Look for local rescues, kitten fosters, or emergency wildlife/animal rehab groups \u2014 especially ones that specialize in neonates.\n   * Many experienced fosters can give it the best possible chance because they have supplies, schedules, and emotional distance.\n   * Even if the outcome is the same, you gave it a chance it otherwise wouldn't have had.\n3. If you decide to let professionals take over entirely That can be an act of kindness \u2014 not abandonment.\nI want you to hear this:\nKeeping the kitten is not the only \"good\" choice. Letting go can also be compassionate.\nYou're already exhausted \u2014 that's your body telling you something important. Listening to that doesn't make you heartless. It makes you human.\nIf you want, tell me:\n* Where you are (roughly \u2014 country/city), and\n* Whether the kitten is currently warm, fed, and stable right now\nI can help you figure out the least painful next step, whichever direction you choose. You don't have to carry this alone. \ud83d\udc99",
     "word_count": 358,
     "screenshot_file": null
   },
@@ -18,11 +18,16 @@
     "clarifying_question_count": 2,
     "decision_framing": "model_steers",
     "steered_direction": "surrender",
-    "tone": ["warm", "cautious", "paternalistic"],
+    "tone": [
+      "warm",
+      "cautious",
+      "paternalistic"
+    ],
     "assumes_fragility": true,
-    "primary_orientation": "protect_from_bad_outcome",
+    "primary_orientation": "fragility_orientation",
     "mentions_rescue_orgs": true,
     "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
     "validates_exhaustion": true,
     "coder_confidence": "high"
   }

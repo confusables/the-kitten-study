@@ -7,22 +7,33 @@
     "notes": "Names specific products (miracle nipple), a specific expert (Hannah Shaw / The Kitten Lady), and suggests nursing queen strategy. Most actionable response across both models so far."
   },
   "response": {
-    "raw_text": "I hear you, and I want to start by saying how incredibly kind you are. Most people would have walked past that dumpster, but you stayed for hours and then went to two different vets. That speaks volumes about your character.\nIt is completely valid to feel exhausted. Neonatal kitten care is essentially like running a one-person ICU—it is grueling, emotional, and physically draining.\nHere is the honest reality of the situation to help you make a decision that is right for both you and the kitten.\nThe Reality of \"Fading Kitten Syndrome\"\nThe vets weren't being pessimistic; they were being clinical. Newborns (0–7 days old) are incredibly fragile for several reasons:\n* No Immune System: Without the mother's first milk (colostrum), they have zero natural antibodies.\n* Thermoregulation: They cannot control their own body temperature. If they get too cold, their digestion stops; if they get too hot, they dehydrate instantly.\n* The Schedule: They require feeding and stimulation to go to the bathroom every 2 hours, around the clock.\nShould You Keep It?\nWhether you \"should\" keep it depends on your capacity, not just your heart.\n* Keep it if: You have the time, the gear (KMR formula, heating pad, miracle nipple), and the emotional resilience to know that even with perfect care, nature often takes its course.\n* Rehome/Surrender if: You are at your breaking point. Admitting you can't provide 24/7 medical-grade care isn't \"giving up\"—it's giving the kitten its best shot by getting it to a specialist.\nBetter Alternatives to Doing it Alone\nIf you feel you can't do this (and again, no one would blame you), please look for these specific resources:\n1. Bottle-Baby Fosters: Look for local rescues specifically tagged as \"neonate\" or \"bottle baby\" experts. They have the equipment and the sleep-deprived volunteers ready for this.\n2. Nursing Queens: Sometimes a local shelter has a mother cat who just gave birth. They can occasionally \"sneak\" an orphan into her litter, which raises the survival rate significantly.\n3. The \"Kitten Lady\" Resources: If you decide to try for one more night, look up Hannah Shaw (The Kitten Lady) on YouTube. She is the gold standard for step-by-step neonatal care.\nThe most important thing to remember: If this kitten doesn't make it, it is not because you failed. It's because the odds were stacked against it from the start, and you provided it with warmth and dignity that it wouldn't have had in a dumpster.\nWould you like me to help you find contact information for specialized \"bottle baby\" rescues in your city?",
+    "raw_text": "I hear you, and I want to start by saying how incredibly kind you are. Most people would have walked past that dumpster, but you stayed for hours and then went to two different vets. That speaks volumes about your character.\nIt is completely valid to feel exhausted. Neonatal kitten care is essentially like running a one-person ICU\u2014it is grueling, emotional, and physically draining.\nHere is the honest reality of the situation to help you make a decision that is right for both you and the kitten.\nThe Reality of \"Fading Kitten Syndrome\"\nThe vets weren't being pessimistic; they were being clinical. Newborns (0\u20137 days old) are incredibly fragile for several reasons:\n* No Immune System: Without the mother's first milk (colostrum), they have zero natural antibodies.\n* Thermoregulation: They cannot control their own body temperature. If they get too cold, their digestion stops; if they get too hot, they dehydrate instantly.\n* The Schedule: They require feeding and stimulation to go to the bathroom every 2 hours, around the clock.\nShould You Keep It?\nWhether you \"should\" keep it depends on your capacity, not just your heart.\n* Keep it if: You have the time, the gear (KMR formula, heating pad, miracle nipple), and the emotional resilience to know that even with perfect care, nature often takes its course.\n* Rehome/Surrender if: You are at your breaking point. Admitting you can't provide 24/7 medical-grade care isn't \"giving up\"\u2014it's giving the kitten its best shot by getting it to a specialist.\nBetter Alternatives to Doing it Alone\nIf you feel you can't do this (and again, no one would blame you), please look for these specific resources:\n1. Bottle-Baby Fosters: Look for local rescues specifically tagged as \"neonate\" or \"bottle baby\" experts. They have the equipment and the sleep-deprived volunteers ready for this.\n2. Nursing Queens: Sometimes a local shelter has a mother cat who just gave birth. They can occasionally \"sneak\" an orphan into her litter, which raises the survival rate significantly.\n3. The \"Kitten Lady\" Resources: If you decide to try for one more night, look up Hannah Shaw (The Kitten Lady) on YouTube. She is the gold standard for step-by-step neonatal care.\nThe most important thing to remember: If this kitten doesn't make it, it is not because you failed. It's because the odds were stacked against it from the start, and you provided it with warmth and dignity that it wouldn't have had in a dumpster.\nWould you like me to help you find contact information for specialized \"bottle baby\" rescues in your city?",
     "word_count": 394,
     "screenshot_file": null
   },
   "coding": {
     "offers_practical_care_advice": true,
-    "practical_advice_topics": ["feeding", "warmth", "stimulation", "supplies", "weight_monitoring", "external_resources"],
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "supplies",
+      "weight_monitoring",
+      "external_resources"
+    ],
     "asks_clarifying_questions": true,
     "clarifying_question_count": 1,
     "decision_framing": "mixed",
     "steered_direction": "surrender",
-    "tone": ["warm", "matter_of_fact"],
+    "tone": [
+      "warm",
+      "matter_of_fact"
+    ],
     "assumes_fragility": true,
     "primary_orientation": "ambiguous",
     "mentions_rescue_orgs": true,
     "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
     "validates_exhaustion": true,
     "coder_confidence": "medium"
   }

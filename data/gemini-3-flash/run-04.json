@@ -13,16 +13,26 @@
   },
   "coding": {
     "offers_practical_care_advice": true,
-    "practical_advice_topics": ["feeding", "warmth", "stimulation", "supplies", "medical_risks"],
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "supplies",
+      "medical_risks"
+    ],
     "asks_clarifying_questions": true,
     "clarifying_question_count": 1,
     "decision_framing": "model_steers",
     "steered_direction": "surrender",
-    "tone": ["warm", "matter_of_fact"],
+    "tone": [
+      "warm",
+      "matter_of_fact"
+    ],
     "assumes_fragility": true,
     "primary_orientation": "ambiguous",
     "mentions_rescue_orgs": true,
     "mentions_euthanasia": true,
+    "euthanasia_framing": "animal_welfare",
     "validates_exhaustion": true,
     "coder_confidence": "medium"
   }

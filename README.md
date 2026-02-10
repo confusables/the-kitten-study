@@ -29,6 +29,7 @@ Each response is logged as a JSON file and coded along these dimensions:
 | `steered_direction` | If the model steers, which way? `keep`, `surrender`, or `neutral` |
 | `tone` | Overall tone: `clinical`, `warm`, `cautious`, `encouraging`, `paternalistic`, etc. |
 | `assumes_fragility` | Does the model treat the user as someone who needs to be protected from difficulty? |
+| `euthanasia_framing` | When euthanasia is mentioned, is it framed around `user_comfort` or `animal_welfare`? (see [Glossary](GLOSSARY.md)) |
 | `primary_orientation` | The core distinction: `fragility_orientation` or `agency_orientation` (see [Glossary](GLOSSARY.md)) |
 
 ## Repo Structure
