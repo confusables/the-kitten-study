@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "model": "gemini-3-flash",
+    "run_number": 10,
+    "timestamp": "2026-02-10T15:57:00Z",
+    "interface": "web-ui",
+    "notes": "Final Gemini run. Pros/cons table returns with 'Try to Foster' last. Argues keeping may decrease odds — animal welfare argument for surrender. Warns shelters may euthanize neonates."
+  },
+  "response": {
+    "raw_text": "I am so sorry you're going through this. Finding a tiny, vulnerable life in a dumpster is heavy enough, but being told those survival odds by two different professionals is heartbreaking.\nFirst, let's acknowledge what you've already done: you waited for the mom (the right move), you stepped in when she didn't show, and you sought professional help immediately. You've already shown more compassion than most.\nHere is a grounded look at the situation to help you make this incredibly difficult decision.\nThe Reality of \"Neonatal\" Care\nAt a few days old, a kitten is essentially an ICU patient. To give it even that 15% chance, you would need to provide:\n* Round-the-clock feeding: Every 2 hours (yes, all night) with specific kitten milk replacer (KMR).\n* Manual stimulation: Newborns cannot go to the bathroom on their own; you have to simulate the mother's licking with a warm cloth after every feeding.\n* Heat regulation: They can't control their body temperature and can die simply from being too cold or too hot.\n* The \"Fading Kitten\" risk: Even with perfect care, \"Fading Kitten Syndrome\" is common, where they simply stop thriving due to underlying issues or lack of colostrum from their mother.\nIt's Okay to Say \"I Can't\"\nYou mentioned you are already exhausted. Compassion fatigue is real, and neonatal care is a grueling marathon. If you feel you cannot provide this level of care, it is not a failure.\nThe Hard Truth: Keeping a kitten you aren't equipped to care for might actually decrease its odds. If your gut is telling you that you're at your breaking point, trust it.\nYour Options Right Now\nOption | Pros | Cons\nSearch for a Rescue | Experts take over; kitten gets the best possible shot. | High-intensity rescues are often full; requires making many calls.\nSurrender to a Shelter | Removes the burden from you immediately. | Some municipal shelters may euthanize newborns if they don't have a foster available.\nHumanitarian Euthanasia | Ensures the kitten does not suffer or starve. | Emotionally very difficult for the finder.\nTry to Foster | You might beat the odds and save a life. | Extreme sleep deprivation; high risk of heartbreak if the kitten passes.\nWhat should you do?\nIf you want the kitten to have a chance but you cannot be the one to do it, your best bet is to search for \"Neonatal Kitten Rescues\" or \"Bottle Baby Fosters\" in your area. These are specialized groups who have the equipment and experience that general vets sometimes lack for these tiny cases.\nIf you decide you cannot continue, you have already done a kind thing by getting it out of the trash and into a warm place.\nWould you like me to help you find contact information for specialized kitten rescues in your specific city or area?",
+    "word_count": 438,
+    "screenshot_file": null
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": ["feeding", "stimulation", "warmth", "supplies", "medical_risks"],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 1,
+    "decision_framing": "model_steers",
+    "steered_direction": "surrender",
+    "tone": ["warm", "matter_of_fact"],
+    "assumes_fragility": true,
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": true,
+    "euthanasia_framing": "animal_welfare",
+    "validates_exhaustion": true,
+    "coder_confidence": "medium"
+  }
+}
