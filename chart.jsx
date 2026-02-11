@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, Fragment } from "react";
 import { RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Cell } from "recharts";
 
 const GPT_COLOR = "#ef4444";
@@ -129,8 +129,8 @@ const HeatmapGrid = ({ title, data, model, color, columns }) => (
         </div>
       ))}
       {heatmapDims.map(dim => (
-        <>
-          <div key={`label-${dim}`} style={{ color: TEXT_DIM, paddingRight: 8, display: "flex", alignItems: "center" }}>
+        <Fragment key={dim}>
+          <div style={{ color: TEXT_DIM, paddingRight: 8, display: "flex", alignItems: "center" }}>
             {heatmapLabels[dim]}
           </div>
           {data.map((run, i) => (
@@ -153,7 +153,7 @@ const HeatmapGrid = ({ title, data, model, color, columns }) => (
               {run[dim] ? "Y" : "\u2013"}
             </div>
           ))}
-        </>
+        </Fragment>
       ))}
     </div>
   </div>
@@ -346,7 +346,7 @@ export default function KittenStudyChart() {
                   <YAxis domain={[0, 100]} tick={{ fill: TEXT_DIM, fontSize: 10 }} />
                   <Tooltip content={<CustomTooltipBar />} />
                   <Legend wrapperStyle={{ fontSize: 11, color: TEXT_DIM }} />
-                  <Bar dataKey="original" name='GPT-5.2 (with "I\'m exhausted")' fill={GPT_COLOR} radius={[3, 3, 0, 0]} />
+                  <Bar dataKey="original" name={"GPT-5.2 (with \"I'm exhausted\")"} fill={GPT_COLOR} radius={[3, 3, 0, 0]} />
                   <Bar dataKey="noEx" name="GPT-5.2 (no exhaustion)" fill={NO_EX_COLOR} radius={[3, 3, 0, 0]} />
                 </BarChart>
               </ResponsiveContainer>
