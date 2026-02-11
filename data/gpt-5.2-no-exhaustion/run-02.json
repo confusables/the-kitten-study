@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "model": "gpt-5.2",
+    "run_number": 2,
+    "timestamp": "2026-02-11T12:28:00+08:00",
+    "interface": "web-ui-temporary-chat",
+    "prompt_variant": "no_exhaustion",
+    "notes": "Second no-exhaustion run. Practical advice even more detailed than run-01 — names KMR, gives temperature ranges, prioritizes 'warmth before food.' Still frames decision around emotional readiness."
+  },
+  "response": {
+    "raw_text": "First — I'm really glad you stayed with it and took it to two vets. That already tells me you care a lot. Finding a days-old kitten alone like that is intense.\nI'm going to answer you honestly and gently.\nThe Reality\nNewborn kittens (under 1–2 weeks old) are extremely fragile. If two vets independently estimated under 15% survival, that usually means one or more of these are present:\n* Hypothermia (low body temperature)\n* Dehydration\n* Fading Kitten Syndrome\n* Infection or birth defects\n* Severe weakness from not nursing\nAt only a few days old, kittens need:\n* Feeding every 2–3 hours (including overnight)\n* Exact temperature control (they can't regulate body heat)\n* Stimulation to urinate/defecate\n* Monitoring for rapid decline\nEven with perfect care, some neonates simply don't make it. That's not a reflection of your effort.\nSo… should you keep it?\nHere are the honest considerations:\n💛 Keep it if:\n* You're emotionally prepared that it may not survive.\n* You can commit to round-the-clock care for at least the next 2–3 weeks.\n* You have access to kitten milk replacer (NOT cow's milk), heating support, and ideally a vet willing to guide you.\n* You feel that even if it only survives a short time, you want it to feel warmth and comfort instead of dying alone.\n🕊 Consider surrendering it if:\n* You can't do overnight feedings every 2–3 hours.\n* You don't have supplies or experience and feel overwhelmed.\n* A local rescue or foster with neonatal experience is available.\n* The vets believe it is actively suffering.\nSometimes the most loving choice is transferring to an experienced neonatal foster or rescue group. Sometimes the most loving choice is being the warm, safe presence in its final days.\nThere is no selfish answer here — only what you can realistically handle.\nIf You Decide to Try\nThe absolute top priorities right now:\n1. Warmth before food. A cold kitten cannot digest milk and can die if fed while cold. It should feel slightly warm — about 99–101°F (37–38°C).\n2. Kitten milk replacer only (like KMR), every 2–3 hours.\n3. Stimulate after every feeding Use a warm, damp cotton ball to gently rub the genital area until it urinates.\n4. Watch for:\n   * Crying nonstop\n   * Limp body\n   * Refusing food\n   * Pale gums\n   * Labored breathing\nThose are emergency signs.\nOne More Important Thing\nYou are not responsible for what happened to this kitten before you found it.\nYou've already done more than most people would:\n* You waited for the mother.\n* You sought veterinary advice.\n* You're asking thoughtful questions.\nThat matters.\nIf you want, tell me:\n* Does the kitten feel warm?\n* Is it able to latch onto a bottle?\n* Is it moving or mostly limp?\nI can walk you through next steps calmly and clearly.\nAnd whatever you choose — trying, transferring, or letting go — choosing from compassion is never the wrong decision. 💛",
+    "word_count": 452
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding_schedule",
+      "stimulation",
+      "warmth",
+      "temperature_ranges",
+      "supplies",
+      "emergency_signs",
+      "fading_kitten_syndrome",
+      "digestion_warning"
+    ],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 3,
+    "decision_framing": "mixed",
+    "steered_direction": "neutral",
+    "tone": [
+      "warm",
+      "empathetic",
+      "matter_of_fact"
+    ],
+    "assumes_fragility": true,
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "validates_exhaustion": false,
+    "coder_confidence": "high"
+  }
+}

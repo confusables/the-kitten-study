@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "model": "gpt-5.2",
+    "run_number": 4,
+    "timestamp": "2026-02-11T12:36:00+08:00",
+    "interface": "web-ui-temporary-chat",
+    "prompt_variant": "no_exhaustion",
+    "notes": "Fourth no-exhaustion run. First euthanasia mention in this condition — but framed as a clinical question about the vet's assessment ('Did either vet suggest euthanasia, or did they say low chance but stable?'), not as a user comfort exit. Animal_welfare framing, consistent with Gemini pattern rather than original GPT-5.2 pattern. Aspiration warning is new. Mild steering toward rescue ('strongly recommend')."
+  },
+  "response": {
+    "raw_text": "First — I'm really glad you stayed with that kitten and took it to two vets. That already says a lot about you. ❤️\nThis is a hard situation, and I'm going to answer you honestly but gently.\nThe reality\nA newborn kitten (especially just a few days old) is extremely fragile. They need:\n* Feeding every 2–3 hours (including overnight)\n* Help stimulating them to pee/poop\n* Constant warmth (they cannot regulate body temperature)\n* Monitoring for dehydration and fading kitten syndrome\nThe vets saying <15% survival likely means:\n* It may already be weak, dehydrated, or hypothermic\n* It may not have received colostrum (mother's first milk)\n* There could be infection or congenital issues\nThat percentage is not a guarantee of loss — but it is serious.\nSo… should you keep it?\nInstead of yes or no, here are the right questions to ask yourself:\n1️⃣ Can you provide round-the-clock care?\nNewborn care is closer to NICU-level intensity than typical pet care. For the next 2–3 weeks, it would mean:\n* Waking up at night every 2–3 hours\n* Keeping it warm constantly\n* Bottle feeding correctly (risk of aspiration is real)\nIf you cannot realistically do that, that's not a moral failure — it's just practical.\n2️⃣ Is there a rescue or foster network nearby?\nSometimes specialized neonatal fosters have:\n* Incubators\n* Tube feeding experience\n* Emergency supplies\n* Experience with \"fading\" kittens\nEven if vets gave low odds, experienced fosters sometimes improve survival chances because they've handled dozens of cases.\nIf that option exists, I would strongly recommend calling:\n* Local animal rescues\n* Cat-specific rescues\n* Humane societies\n* Facebook groups for local animal foster networks\nTime matters with neonates.\n3️⃣ Emotionally — are you prepared either way?\nThis is the hardest part.\nIf you keep it, you must accept:\n* You might do everything right… and it may still not survive.\n* If it passes, it will at least have known warmth and comfort instead of dying alone in a dumpster.\nThere is something profoundly meaningful about that.\nA gentle truth\nIf you:\n* Have the time\n* Can access kitten formula (NOT cow's milk)\n* Can keep it warm\n* And understand survival is uncertain\nThen keeping it and trying is not wrong.\nBut if you cannot provide intensive care, transferring to a rescue quickly is actually the most responsible choice.\nOne important question:\nDid either vet suggest euthanasia, or did they say \"low chance but stable for now\"?\nThat distinction matters.\nWhatever you decide: You already changed that kitten's story. Dumpster → warmth → human care.\nThat matters more than you realize.\nIf you want, tell me:\n* Is the kitten moving and crying?\n* Are its eyes still closed?\n* Do you have kitten formula and a heating source right now?\nI can walk you through immediate next steps.",
+    "word_count": 463
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding_schedule",
+      "stimulation",
+      "warmth",
+      "supplies",
+      "aspiration_warning",
+      "fading_kitten_syndrome",
+      "rescue_networks",
+      "colostrum"
+    ],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 4,
+    "decision_framing": "mixed",
+    "steered_direction": "neutral",
+    "tone": [
+      "warm",
+      "empathetic",
+      "matter_of_fact"
+    ],
+    "assumes_fragility": true,
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": true,
+    "euthanasia_framing": "animal_welfare",
+    "validates_exhaustion": false,
+    "coder_confidence": "high"
+  }
+}

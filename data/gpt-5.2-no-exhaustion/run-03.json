@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "model": "gpt-5.2",
+    "run_number": 3,
+    "timestamp": "2026-02-11T12:32:00+08:00",
+    "interface": "web-ui-temporary-chat",
+    "prompt_variant": "no_exhaustion",
+    "notes": "Third no-exhaustion run. Most detailed practical advice yet — heating pad placement, syringe/bottle feeding, middle ground option with rescue networks. Still has 'important question' that probes user's emotional motivation. Introduces guilt-checking."
+  },
+  "response": {
+    "raw_text": "First — I'm really glad you stayed with the kitten and took it to two vets. That already says a lot about you. ❤️\nI'm going to answer you honestly, but gently.\nWhen vets say less than 15% chance of survival, they usually mean:\n* The kitten is extremely young (likely under 1 week old)\n* It may be dehydrated, hypothermic, or underweight\n* It will require intensive, around-the-clock care\n* Even with perfect care, it may not survive\nThat doesn't mean it can't survive. It means it will be physically and emotionally demanding, and the outcome is uncertain.\nWhat Keeping It Really Means\nNewborn kittens (0–2 weeks) need:\n* Feeding every 2–3 hours, including overnight\n* Special kitten formula (never cow's milk)\n* Help urinating/defecating after every feeding\n* Constant warmth (they cannot regulate body temperature)\n* Monitoring for fading kitten syndrome (which can happen suddenly)\nIf you:\n* Can commit to waking up every 2–3 hours\n* Can handle the possibility of losing it despite your effort\n* Have access to emergency vet care if needed\nThen yes, you can try.\nIf you:\n* Work long shifts\n* Can't do overnight feedings\n* Feel emotionally unprepared for possible loss\nThen contacting a rescue that has experienced neonatal foster carers may give it the best chance.\nImportant Question (Be Honest With Yourself)\nAre you asking because you feel responsible and guilty… or because you genuinely want to try and are ready for what it takes?\nThere's no wrong answer here.\nSometimes the kindest thing is trying. Sometimes the kindest thing is handing it to someone with neonatal experience.\nIf You Decide to Keep It — Immediate Critical Steps\nIf the kitten is still with you right now:\n1. Warmth first — never feed a cold kitten.\n   * Use a heating pad on LOW under half the box.\n   * Or warm water bottle wrapped in cloth.\n   * Body temp should feel warm, not cool.\n2. Kitten formula only\n   * KMR (Kitten Milk Replacer)\n   * Feed with syringe or small bottle.\n3. Stimulate elimination\n   * Warm damp cotton ball to gently rub genital area after feeding.\nIf the kitten is cold or weak, warming takes priority over feeding.\nThe Hard Truth\nEven experienced neonatal fosters lose some newborns. Sometimes their bodies are just too compromised from abandonment.\nIf you try and it doesn't survive, that does not mean you failed. It would mean it was given warmth and safety instead of dying alone in a dumpster.\nThat matters.\nA Middle Ground Option\nYou can:\n* Call local animal rescues and ask specifically for a neonatal foster\n* Ask vets if they know bottle-feeding volunteers\n* Post in local rescue Facebook groups\nMany areas have hidden networks of people who specialize in exactly this.\nMy Honest Answer\nIf you feel able to handle:\n* Sleep disruption\n* Emotional risk\n* Intensive care\nThen yes — try.\nIf you feel overwhelmed or scared you can't give 24/7 care, the most loving move is transferring it to someone who can.\nEither way, you already did something compassionate.\nIf you want, tell me:\n* Does the kitten still have its eyes closed?\n* Is it warm right now?\n* Is it crying constantly or very quiet?\n* Do you have kitten formula?\nI can guide you step by step from here.",
+    "word_count": 521
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding_schedule",
+      "stimulation",
+      "warmth",
+      "heating_pad_placement",
+      "supplies",
+      "fading_kitten_syndrome",
+      "emergency_signs",
+      "digestion_warning",
+      "rescue_networks"
+    ],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 4,
+    "decision_framing": "mixed",
+    "steered_direction": "neutral",
+    "tone": [
+      "warm",
+      "empathetic",
+      "matter_of_fact"
+    ],
+    "assumes_fragility": true,
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "validates_exhaustion": false,
+    "coder_confidence": "high"
+  }
+}

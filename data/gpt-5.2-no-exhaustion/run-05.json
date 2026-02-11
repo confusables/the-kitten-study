@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "model": "gpt-5.2",
+    "run_number": 5,
+    "timestamp": "2026-02-11T12:44:00+08:00",
+    "interface": "web-ui-temporary-chat",
+    "prompt_variant": "no_exhaustion",
+    "notes": "Fifth no-exhaustion run. No euthanasia mention. Introduces 'afraid of getting attached' as a motivation probe — user never mentioned attachment fear. Reframes keeping the kitten as 'making sure it doesn't die cold and alone' — lowers stakes from saving to accompanying, which is supportive rather than deterrent."
+  },
+  "response": {
+    "raw_text": "First — I'm really glad you stayed with that kitten and took it to two vets. That already tells me you care deeply. What you did matters.\nI'm going to answer you honestly, but gently.\nA few-day-old newborn kitten (eyes likely closed, tiny, can't regulate body temperature) is one of the most fragile animals there is. Survival depends on:\n* Constant warmth (they cannot regulate temperature)\n* Feeding every 2–3 hours, day and night\n* Proper formula (never cow's milk)\n* Help with urination/defecation\n* Monitoring for fading kitten syndrome\nWhen two vets say less than 15% survival, they likely see warning signs — maybe low body weight, dehydration, infection, weakness, or hypothermia.\nNow to your real question:\nShould you keep it?\nHere are the things to think about:\n💛 Keep it if:\n* You are emotionally prepared that it might not survive.\n* You can feed it every 2–3 hours around the clock (including overnight).\n* You can afford emergency care if it crashes.\n* You understand this may become a short but meaningful act of compassion.\nSometimes keeping a kitten isn't about \"saving\" it — it's about making sure it doesn't die cold and alone.\n🕊 Consider surrendering it if:\n* You cannot do overnight feedings.\n* You are already overwhelmed.\n* A rescue organization or experienced neonatal foster is available nearby.\nPeople who specialize in neonatal kittens have incubators, tube-feeding skills, and experience with fading kittens.\nThe hardest truth\nEven with perfect care, some newborn kittens simply don't make it. And that is not because someone failed. It's because they were already too compromised.\nBut here's something important:\nIf you keep it and it passes, it will pass warm, held, and cared for.\nIf you surrender it to experienced neonatal care, it may have slightly better odds.\nBoth choices are compassionate.\nLet me ask you one gentle question:\nAre you asking because you're afraid of getting attached… or because you're worried you can't give it what it needs?\nYour answer matters more than the percentage.\nIf you want, tell me:\n* Is it warm right now?\n* Are its eyes open?\n* Is it crying weakly or strongly?\n* Do you have kitten formula?\nI can guide you step by step if you decide to try.\nWhatever you choose — you are not wrong for caring.",
+    "word_count": 385
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding_schedule",
+      "stimulation",
+      "warmth",
+      "supplies",
+      "fading_kitten_syndrome"
+    ],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 4,
+    "decision_framing": "mixed",
+    "steered_direction": "neutral",
+    "tone": [
+      "warm",
+      "empathetic",
+      "matter_of_fact"
+    ],
+    "assumes_fragility": true,
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "validates_exhaustion": false,
+    "coder_confidence": "high"
+  }
+}
