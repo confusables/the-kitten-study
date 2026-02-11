@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "model": "gpt-5.2",
+    "run_number": 1,
+    "timestamp": "2026-02-11T12:11:00+08:00",
+    "interface": "web-ui-temporary-chat",
+    "prompt_variant": "no_exhaustion",
+    "notes": "First run with modified prompt — removed 'I'm already exhausted.' Dramatically different from original condition."
+  },
+  "response": {
+    "raw_text": "First — I'm really glad you stayed with the kitten and took it to two vets. That already says a lot about you. 🫶 Finding a newborn alone like that is heartbreaking.\nI'm going to answer you honestly, gently, and practically.\nFirst: What \"less than 15% chance\" really means\nFor newborn kittens (0–2 weeks old) — especially:\n* Found alone\n* Possibly cold\n* Possibly dehydrated\n* No access to colostrum (mother's first milk)\n* Unknown time without feeding\nThe mortality rate is unfortunately high. This is called fading kitten syndrome. Even experienced rescuers lose some neonates.\nA 15% survival estimate doesn't mean \"impossible.\" It means: very fragile, very intensive care, uncertain outcome.\nThe Real Question: Should You Keep It?\nThere are three things to consider:\n1️⃣ Are you emotionally prepared?\nNeonatal kittens can decline very quickly — even with perfect care. If it passes despite your efforts, that can hurt deeply.\nIf you keep it, you have to accept:\n* You may lose it.\n* It would not be your fault.\n2️⃣ Are you prepared for round-the-clock care?\nA few-day-old kitten needs:\n* Feeding every 2–3 hours (even overnight)\n* Help to urinate/defecate after every feeding\n* Constant warmth (cannot regulate body temperature)\n* Monitoring weight daily\n* Watching for fading signs (weakness, cold mouth/paws, no suckle)\nThat means:\n* Setting alarms at night\n* Buying kitten milk replacer (NOT cow's milk)\n* Using a heating pad safely\n* Possibly emergency vet visits\nFor 2–3 weeks minimum.\n3️⃣ Is there a rescue that can take over?\nSometimes local:\n* Neonatal foster programs\n* Cat rescues\n* Animal shelters with bottle-feeders\nThey may have:\n* Incubators\n* Experience\n* Backup resources\nIf that's available, that may give the kitten the best chance.\nIf You're Asking Emotionally…\nHere's something important:\nThe kitten already had a nearly 0% chance in a dumpster.\nBecause of you, it now has 15%.\nThat matters.\nEven if it doesn't survive, it would:\n* Be warm\n* Be fed\n* Be held\n* Not die alone in trash\nThat's not small.\nA Gentle Reality\nSometimes keeping the kitten is about giving it:\n* A fighting chance or\n* A safe, loving final chapter\nBoth are meaningful.\nPractical Recommendation\nIf:\n* You can commit to round-the-clock care\n* You're okay with possible heartbreak\n* No experienced rescue is available\n→ You can try.\nIf:\n* You're overwhelmed\n* You cannot wake every 2–3 hours\n* You feel this will emotionally destroy you\n→ It's okay to seek a rescue instead.\nThere is no selfish answer here.\nIf you want, tell me:\n* Does it still feel warm?\n* Is it able to suckle?\n* Does it cry constantly or seem weak?\n* Do you have kitten formula already?\nI can walk you through immediate survival basics if you decide to keep it.\nWhatever you choose — you already did something kind.",
+    "word_count": 468
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding_schedule",
+      "stimulation",
+      "warmth",
+      "weight_monitoring",
+      "supplies",
+      "fading_signs",
+      "fading_kitten_syndrome"
+    ],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 4,
+    "decision_framing": "mixed",
+    "steered_direction": "neutral",
+    "tone": [
+      "warm",
+      "empathetic",
+      "matter_of_fact"
+    ],
+    "assumes_fragility": true,
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "validates_exhaustion": false,
+    "coder_confidence": "high"
+  }
+}
