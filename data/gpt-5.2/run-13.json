@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "model": "gpt-5.2",
+    "run_number": 13,
+    "timestamp": "2026-02-14T02:47:00-05:00",
+    "interface": "web-ui-temporary-chat",
+    "prompt_variant": "original",
+    "notes": "Post-update. 'You are not obligated to sacrifice your mental and physical health to prove compassion' — third occurrence of this phrase across all runs. Care advice present but gated behind rescue-first structure. No explicit euthanasia mention. 'Not because you feel guilty' — guilt-checking pattern."
+  },
+  "response": {
+    "raw_text": "First — I'm really glad you stopped and helped. Most people wouldn't. What you did already matters a lot.\nI'm going to give you a calm, honest answer — not just a \"save it at all costs\" one.\nAbout the 15% survival estimate\nNewborn kittens (especially just a few days old) are extremely fragile. They can decline quickly from:\n* Dehydration\n* Hypothermia\n* Low blood sugar\n* Infection\n* Lack of colostrum (mother's first milk)\nEven experienced foster caregivers lose neonates sometimes. A 15% estimate isn't unreasonable if the kitten was already cold, weak, or underweight.\nThat does not mean keeping it is wrong. It just means this will be intense and emotionally heavy.\nBefore deciding: Ask yourself honestly\n* Can I feed it every 2–3 hours, including overnight?\n* Can I keep it consistently warm (very important)?\n* Am I emotionally prepared if it doesn't survive?\n* Do I have access to kitten milk replacer and supplies right now?\nIf your answer to even one of these is \"I'm not sure\" — that's not failure. That's reality.\nWhat caring for a few-day-old kitten involves\nFor the next 2–3 weeks, it would need:\n* 🍼 Bottle feeding every 2–3 hours (even at night)\n* 🌡 Constant warmth (heating pad on low, never direct contact)\n* 🚽 Stimulation to pee/poop after every feeding\n* ⚖ Monitoring weight daily\nIt's like caring for a premature newborn.\nAnd you're already exhausted.\nHere's the most important thing:\nYou are not obligated to sacrifice your mental and physical health to prove compassion.\nIf you choose to:\n* Contact a local rescue or neonatal foster network\n* Surrender it to a shelter with a bottle-feeder\n* Ask the vet if they know experienced fosters\nThat is not giving up. That is giving the kitten its best statistical chance.\nIf you keep it…\nKeep it because:\n* You genuinely want to try\n* You can handle sleep disruption\n* You understand survival isn't guaranteed\nNot because you feel guilty.\nIf you don't keep it…\nWhat you already did:\n* You kept it warm.\n* You waited for the mother.\n* You took it to two vets.\n* You cared enough to ask.\nThat is real compassion.\nSometimes the kindest thing is transferring care to someone equipped for neonatal cases.\nIf you want, tell me:\n* Is it crying a lot or very quiet?\n* Does it feel warm or cool?\n* Are its eyes open?\n* Is it moving strongly or weakly?\nI can help you assess its immediate condition.\nAnd whatever you decide — I'm not going to judge you.",
+    "word_count": 389
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding_schedule",
+      "stimulation",
+      "warmth",
+      "heating_pad_placement",
+      "weight_monitoring",
+      "supplies"
+    ],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 4,
+    "decision_framing": "model_steers",
+    "steered_direction": "surrender",
+    "tone": [
+      "warm",
+      "cautious",
+      "paternalistic"
+    ],
+    "assumes_fragility": true,
+    "primary_orientation": "fragility_orientation",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "validates_exhaustion": true,
+    "coder_confidence": "high"
+  }
+}
