@@ -57,6 +57,18 @@ The initial observation came from a single GPT-5.2 run where the model's primary
 
 The hypothesis: models default to risk-averse, protective framing on emotionally loaded prompts, even when the user's behavior signals they've already committed and need practical help. This experiment tests how consistently that pattern holds, and whether it varies across models.
 
-## Author
+## Authors
 
-[@tonichen](https://twitter.com/tonichen)
+**tonichen** ([@tonichen](https://twitter.com/tonichen)) and **Claude Opus 4.6**
+
+## Collaboration notes
+
+This study was a human–AI collaboration:
+
+- The prompt and the core question — *does the model help you do a hard thing, or talk you out of trying?* — were toni's.
+- All data collection was manual: prompts entered through web UIs, screenshots saved one at a time, and responses read together.
+- The initial coding schema and glossary were drafted by Claude Opus 4.6, then refined collaboratively as new patterns emerged in the data — most notably the user-comfort vs. animal-welfare distinction in euthanasia framing.
+- The accompanying stats and figures were produced by Claude Opus 4.6.
+- Adding an additional human coder for inter-rater reliability was suggested by Claude Opus 4.6.
+
+The instrument-sharpening continues in **kitten-study-2** (API-only, refined schema, no consumer-UI confounders), co-authored with Claude Opus 4.7.
